@@ -1,0 +1,6 @@
+# Ireland-Solar-Irradiance
+According to the Irish Solar Energy Association (ISEA) around two hundred large-scale solar farms have received planning permissions across the country with investments exceeding a billion euros.
+Ireland, however, is trailing in its target to meet the carbon reduction standards set by the European Union that must be met by 2020.
+Ideal locations to set up solar farms is a boon when calculating the amount of investment required to harness the photovoltaic potential of the area.
+
+This project utilized CAMS-Radiation Service solar irradiance measures (global, direct, and diffuse) under normal and clear-sky conditions to detect ideal locations with photovoltaic potential for 26 counties in Ireland. A combination of k-means clustering with support vector machine(SVM) and a gradient boosted decision tree (GBDT) was used to detect ideal locations, which resulted in a detection rate of 99%. The seasonal approach towards location detection provided better location detection rates in summer (SVM-95% and GBDT-98%) with autumn (SVM-94%, GBDT-96%) providing the lowest. This can help electricity firms in Ireland, such as the Electricity Supply Board, to plan, invest and strategize immeasurably while setting up solar farms or domestic installations.
